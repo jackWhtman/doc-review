@@ -1,0 +1,5 @@
+.review-screen {
+  display: flex;
+  height: calc(100vh - 5rem);
+  padding: 0 0.5rem;
+}

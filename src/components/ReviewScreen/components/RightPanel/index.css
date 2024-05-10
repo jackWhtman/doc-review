@@ -1,0 +1,36 @@
+.right-panel {
+  width: 30%; /* Adjust width as needed */
+  height: 100%; /* Ensure panel fills the height of its parent */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.right-panel-title {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.right-panel-content {
+  overflow-y: auto; /* Add vertical scrollbar if content exceeds container height */
+  max-height: calc(100% - 90px); /* Adjust max height to leave space for buttons */
+}
+
+.field-container {
+  padding: 10px;
+}
+
+.right-panel-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-panel-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: grey;
+  color: white;
+  border: none;
+}

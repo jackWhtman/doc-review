@@ -1,0 +1,35 @@
+.field-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.field-label {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: center;
+}
+
+.field-values {
+  width: 70%;
+}
+
+.field-checkbox {
+  width: 10%;
+}
+
+.field-options {
+  width: 10%;
+}
+.options-button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+}

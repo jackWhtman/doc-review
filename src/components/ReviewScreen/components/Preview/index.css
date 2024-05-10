@@ -1,0 +1,15 @@
+.preview {
+  width: 70%;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+.canvas-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+canvas {
+  display: block; /* Make canvas fill its container */
+  border: 1px solid black; /* Add border for visualization */
+}
